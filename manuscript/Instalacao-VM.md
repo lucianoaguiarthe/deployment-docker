@@ -20,18 +20,105 @@
 
 <p align="justify">É importante pontuar que a memória reservada para as máquinas virtuais foram de 1255 MB, todavia podendo diminuir este tamanho, conforme configuração da máquina que estará executando o Appliance. Podemos observar a alocação de memória desejada na Fig. 02.</p>
 
-<p align="center"><img src="images/samba/02_virtualbox.png"  width="800" height="493" align="middle"/></p>
-<h4 align="middle">Figura 02 - Alocação de Memória VM</h4>
-
 
 <p align="center"><img src="images/install-vm/01.png"  width="600" height="303" align="middle"/></p>
-<h4 align="middle">Figura 02 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 01 - Alocação de Memória VM</h4>
 
 <p align="center"><img src="images/install-vm/02.png"  width="600" height="303" align="middle"/></p>
 <h4 align="middle">Figura 02 - Alocação de Memória VM</h4>
 
 <p align="center"><img src="images/install-vm/03.png"  width="600" height="301" align="middle"/></p>
-<h4 align="middle">Figura 02 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 03 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/04.png"  width="600" height="347" align="middle"/></p>
+<h4 align="middle">Figura 04 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/05.png"  width="600" height="346" align="middle"/></p>
+<h4 align="middle">Figura 05 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/06.png"  width="600" height="348" align="middle"/></p>
+<h4 align="middle">Figura 06 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/07.png"  width="600" height="249" align="middle"/></p>
+<h4 align="middle">Figura 07 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/08.png"  width="400" height="217" align="middle"/></p>
+<h4 align="middle">Figura 08 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/09.png"  width="600" height="448" align="middle"/></p>
+<h4 align="middle">Figura 09 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/10.png"  width="600" height="448" align="middle"/></p>
+<h4 align="middle">Figura 10 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/11.png"  width="600" height="449" align="middle"/></p>
+<h4 align="middle">Figura 11 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/12.png"  width="600" height="449" align="middle"/></p>
+<h4 align="middle">Figura 12 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/13.png"  width="600" height="453" align="middle"/></p>
+<h4 align="middle">Figura 13 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/14.png"  width="600" height="452" align="middle"/></p>
+<h4 align="middle">Figura 14 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/15.png"  width="600" height="452" align="middle"/></p>
+<h4 align="middle">Figura 15 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/16.png"  width="600" height="450" align="middle"/></p>
+<h4 align="middle">Figura 16 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/17.png"  width="600" height="451" align="middle"/></p>
+<h4 align="middle">Figura 17 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/18.png"  width="600" height="453" align="middle"/></p>
+<h4 align="middle">Figura 18 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/19.png"  width="600" height="453" align="middle"/></p>
+<h4 align="middle">Figura 19 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/20.png"  width="600" height="453" align="middle"/></p>
+<h4 align="middle">Figura 20 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/21.png"  width="600" height="453" align="middle"/></p>
+<h4 align="middle">Figura 21 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/22.png"  width="600" height="452" align="middle"/></p>
+<h4 align="middle">Figura 22 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/23.png"  width="600" height="451" align="middle"/></p>
+<h4 align="middle">Figura 23 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/24.png"  width="600" height="454" align="middle"/></p>
+<h4 align="middle">Figura 24 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/25.png"  width="600" height="453" align="middle"/></p>
+<h4 align="middle">Figura 25 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/26.png"  width="600" height="453" align="middle"/></p>
+<h4 align="middle">Figura 26 - Alocação de Memória VM</h4>
+
+
+<p align="center"><img src="images/install-vm/27.png"  width="600" height="456" align="middle"/></p>
+<h4 align="middle">Figura 27 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/28.png"  width="600" height="453" align="middle"/></p>
+<h4 align="middle">Figura 28 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/29.png"  width="600" height="452" align="middle"/></p>
+<h4 align="middle">Figura 29 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/30.png"  width="600" height="451" align="middle"/></p>
+<h4 align="middle">Figura 30 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/31.png"  width="600" height="453" align="middle"/></p>
+<h4 align="middle">Figura 31 - Alocação de Memória VM</h4>
+
+<p align="center"><img src="images/install-vm/32.png"  width="600" height="453" align="middle"/></p>
+<h4 align="middle">Figura 32 - Alocação de Memória VM</h4>
+
+
 
 ## INSTALAÇÃO SAMBA
 
