@@ -2,7 +2,7 @@
 # Implantação de Serviços com Docker
 <p align="center"><img src="manuscript/images/development-software.png"  width="400" height="211" align="middle"/></p>
 
-<p align="justify">Esse material tem como objetivo apresentar a configuração de um ambiente para implantação de serviços através de Container utilizando Docker e sua disponização através do Docker Hub.</p>
+<p align="justify">Esse material tem como objetivo apresentar a configuração de um ambiente para implantação de serviços por meio de Container utilizando Docker e sua disponização através do Docker Hub.</p>
 
 > Autor: **[Luciano de Aguiar Monteiro](https://github.com/lucianoaguiarthe)**
 
