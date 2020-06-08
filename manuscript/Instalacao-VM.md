@@ -1,31 +1,20 @@
 # Instalação Sistema Operacional Debian
-<p align="justify">O Samba é um serviço disponível para Sistemas Operacionais Linux que permite compartilhar diretórios e impressoras, bem como implementar um controlador de domínio. A primeira versão do Samba foi disponibilizada em 1992, e escrita por Andrew Tridgell, um Australiano que na época era estudante de ciências da computação, atualmente encontra-se em sua versão 4, a grande novidade desta versão são as implementações de Diretivas de Grupos. Para o seu funcionamento necessita da instalação dos seguintes pacotes:</p>
+<p align="justify">Para se  disponibilizar se um ambiente virtualizado se faz necessário o download de um software de virtualizado, o adotado no presente material é o VirtualBox da Oracle, o dowload da aplicação pode ser realizado no endereço abaixo:</p>
 
-*  <b>Samba</b> – Que disponibiliza o samba propriamente dito;<p>
-* <b>Kerberos</b> – Protocolo desenvolvido para prover altenticação em aplicações e serviços cliente/servidor;<p>
-* <b>Winbind</b> -  Proporciona uma integração de usuários Windows com o samba;<p>
-* <b>Smbclient</b> – Permite acessar compartilhamentos em outras máquinas.<p>
+[VirtualBox](https://www.virtualbox.org/) 
 
-<p align="justify">Para que você possa configurar um ambiente totalmente funcional com controlador de domínio samba, ferramenta de administração do Samba RSAT e um cliente para o teste, criei um Appliance no link abaixo:</p>
+<p align="justify">O procedimento de instação é muito simples, seguindo as telas de avançar, conforme aplicações padrões do Windows. O Sistema Operacional adotado para execução do Docker é o Debian, em sua versão 10.4, recomenda-se baixar a versão netinst, que possui os pacotes básicos e caso seja necessários realizar o downloads dos demais pacotes através da internet:</p>
 
-[Appliance Samba](https://drive.google.com/open?id=1k_6UyI9RjKqrBUSAVVpLnftYZu6_9aI7) 
+[Debian 10.4.0 Netinst](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-10.4.0-amd64-netinst.iso) 
 
-<p align="justify">Este Appliance terá um servidor Samba <b>samba-dc</b>, um cliente para administrar graficamente o Samba, a máquina <b>RSAT-PC</b>, no diretório c:\samba encontra-se o instalador, e a máquina <b>Cliente-PC</b>, para testes com o cliente, conforme diagrama abaixo:</p>
-
-![](images/samba/01_diagrama-samba.png)
-<h4 align="middle">Figura 01 - Diagrama de Rede</h4>
-
-
-<p align="justify">Conforme apresentado no diagrama de rede acima Fig. 01 o IP da interface <b>enp0s3</b> é 192.168.5.1, a senha tanto do usuário <b>root</b> como do usuário <b>aluno</b> é <b>123456</b></p>
-
-<p align="justify">É importante pontuar que a memória reservada para as máquinas virtuais foram de 1255 MB, todavia podendo diminuir este tamanho, conforme configuração da máquina que estará executando o Appliance. Podemos observar a alocação de memória desejada na Fig. 02.</p>
-
+<p align="justify">Para criar uma Máquina Virtual, que é o ambiente onde será instalado o Sistema Operacinal selecione o Menu <b>Máquina</b> e <b>Novo</b>, conforme Figura 1, Atribua um nome para a Máquina Virtual e selecione o botão continuar.<p align="justify">
 
 <p align="center"><img src="images/install-vm/01.png"  width="600" height="303" align="middle"/></p>
-<h4 align="middle">Figura 01 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 01 - Criação VM</h4>
 
+<p align="justify">  </p>
 <p align="center"><img src="images/install-vm/02.png"  width="600" height="303" align="middle"/></p>
-<h4 align="middle">Figura 02 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 02 - Tamanho da Memória</h4>
 
 <p align="center"><img src="images/install-vm/03.png"  width="600" height="301" align="middle"/></p>
 <h4 align="middle">Figura 03 - Alocação de Memória VM</h4>
@@ -42,10 +31,10 @@
 <p align="center"><img src="images/install-vm/07.png"  width="600" height="249" align="middle"/></p>
 <h4 align="middle">Figura 07 - Alocação de Memória VM</h4>
 
-<p align="center"><img src="images/install-vm/08.png"  width="400" height="217" align="middle"/></p>
+<p align="center"><img src="images/install-vm/08.png"  width="600" height="326" align="middle"/></p>
 <h4 align="middle">Figura 08 - Alocação de Memória VM</h4>
 
-<p align="center"><img src="images/install-vm/09.png"  width="600" height="448" align="middle"/></p>
+<p align="center"><img src="images/install-vm/09.png"  width="500" height="374" align="middle"/></p>
 <h4 align="middle">Figura 09 - Alocação de Memória VM</h4>
 
 <p align="center"><img src="images/install-vm/10.png"  width="600" height="448" align="middle"/></p>
