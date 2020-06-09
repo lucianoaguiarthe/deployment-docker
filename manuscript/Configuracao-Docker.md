@@ -60,3 +60,17 @@
 <p align="justify">O docker rmi é utilizado quando o administrador do container deseja remover as imagens baixadas no repositório local, na imagem abaixo apresenta o comando de remoção da imagem nginx.</p>
 
 <p align="center"><img src="images/admin-docker/docker-rmi.png"  width="600" height="134" align="middle"/></p>
+
+### VISUALIZAÇÃO DOS CONTAINER EM EXECUÇÃO
+
+<p align="justify">Ao longo da administração de sistemas com docker se faz necessário visualizar os containers que estão em execução no momento, com este objetivo pode-se utilizar o comando docker ps, a figura abaixo apresenta um ambiente em que estão executando dois containers com o nome debian e ubuntu.</p>
+
+<p align="center"><img src="images/admin-docker/docker-ps.png"  width="800" height="73" align="middle"/></p>
+
+### CRIANDO UMA NOVA IMAGEM
+
+<p align="justify">Ao criar um container o administrador do sistema pode instalar aplicações neste, e caso haja necessita salvar a imagens para reutilizar este container já preparado, para isso pode realizar o commit com o comando docker commit imagem_alterada nova_imagem, a imagem abaixo apresenta um exemplo, onde é criado uma nova imagem img-icev a partir do container icev, logo em seguida é exibido a lista de imagens do repositório local já com a nova criada</p>
+
+<p align="center"><img src="images/admin-docker/docker-commit.png"  width="700" height="72" align="middle"/></p>
+
+[Início](/README.md)
