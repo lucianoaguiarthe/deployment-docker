@@ -59,8 +59,8 @@
 
 <p align="justify">Para verificar a versão do docker digite: docker -v</p>
 
-<p align="center"><img src="images/install-docker/version-docker.png"  width="600" height="47" align="middle"/></p>
-<h4 align="middle">Figura 01 - Máquna Virtual</h4>
+<p align="center"><img src="images/install-docker/version-docker.png"  width="400" height="31" align="middle"/></p>
+<h4 align="middle">Figura 03 - Versão Docker</h4>
 
 
 
