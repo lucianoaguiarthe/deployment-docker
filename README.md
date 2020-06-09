@@ -13,5 +13,5 @@
 
 1. [Configuração Máquina Virtual](manuscript/Instalacao-VM.md)
 2. [Instalação Docker](manuscript/Instalacao-Docker.md)
-3. [Criação e Configuração do Container](manuscript/Configuração-Docker.md)
+3. [Criação e Configuração do Container](manuscript/Configuracao-Docker.md)
 4. [Disponibilização Docker Hub](manuscript/Configuração-DockerHuber.md)
