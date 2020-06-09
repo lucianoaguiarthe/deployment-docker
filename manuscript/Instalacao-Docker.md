@@ -38,7 +38,7 @@
 
 <p align="left"><b>curl -fsSL https://download.docker.com/linux/debian/gpg | apt-key add - </b></p>
 
-<p align="left">Verifique se agora você possui a chave com a impressão digital <b>9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88</b>, pesquisando os últimos 8 caracteres da impressão digital.</P>
+<p align="left">Verifique se agora você possui a chave com a impressão digital <b>9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88</b>, pesquisando os últimos 8 caracteres da impressão digital:</P>
 
 <p align="left"><b>apt-key fingerprint 0EBFCD88</b></p>
 
@@ -49,10 +49,10 @@
    $(lsb_release -cs) 
    stable"</b></p>
 
-<p align="justify">Atuelize os pacotes do Sistema Operacional.</p>   
+<p align="justify">Atuelize os pacotes do Sistema Operacional:</p>   
 <p align="left"><b> apt-get update</b></p>
    
-<p align="justify">Instale os pacotes necessários para execução docker.</p>
+<p align="justify">Instale os pacotes necessários para execução docker:</p>
 <p align="left"><b>apt-get install -y docker-ce docker-ce-cli containerd.io </b></p>
 
 
