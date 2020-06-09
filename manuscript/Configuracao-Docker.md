@@ -71,6 +71,6 @@
 
 <p align="justify">Ao criar um container o administrador do sistema pode instalar aplicações neste, e caso haja necessita salvar a imagens para reutilizar este container já preparado, para isso pode realizar o commit com o comando docker commit imagem_alterada nova_imagem, a imagem abaixo apresenta um exemplo, onde é criado uma nova imagem img-icev a partir do container icev, logo em seguida é exibido a lista de imagens do repositório local já com a nova criada</p>
 
-<p align="center"><img src="images/admin-docker/docker-commit.png"  width="700" height="72" align="middle"/></p>
+<p align="center"><img src="images/admin-docker/docker-commit.png"  width="400" height="61" align="middle"/></p>
 
 [Início](/README.md)
