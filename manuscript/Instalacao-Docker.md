@@ -43,7 +43,7 @@
 <p align="left"><b>apt-key fingerprint 0EBFCD88</b></p>
 
 
-<p align="justify">Adicione o repositório estável para instalação dos pacotes docker do debian.</p>
+<p align="justify">Adicione o repositório estável para instalação dos pacotes docker do debian:</p>
 <p align="left"><b>add-apt-repository 
    "deb [arch=amd64] https://download.docker.com/linux/debian 
    $(lsb_release -cs) 
