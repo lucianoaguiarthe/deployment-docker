@@ -5,14 +5,14 @@
 
 <p align="justify">A Virtualização é o processo de dividir a máquina física em vários componentes virtuais, nos quais cada um pode hospedar sistemas operacionais diferentes, cabendo a gestão destes SO ao hypervisor. A Figura 4 apresenta um ambiente com esta arquitetura. Um aspecto a se ressaltar é o consumo de hardware: cada sistema convidado possui um kernel em execução.</p>
 
-<p align="center"><img src="images/install-docker/VM.png"  width="346" height="486" align="middle"/></p>
+<p align="center"><img src="images/install-docker/VM.png"  width="250" height="351" align="middle"/></p>
 <h4 align="middle">Figura 04 - Servidor Kerberos</h4>
 
 
 
 <p align="justify">Na arquitetura de container, bibliotecas, system calls e recursos do SO hospedeiro são compartilhados com os containers. Neste ambiente, cada container compartilha ainda o mesmo kernel do SO hospedeiro, tornando a sua execução mais rápida. A Figura 5 apresenta um ambiente com esta abordagem executando dois containers.</p>
 
-<p align="center"><img src="images/install-docker/container.png"  width="338" height="440" align="middle"/></p>
+<p align="center"><img src="images/install-docker/container.png"  width="250" height="325" align="middle"/></p>
 <h4 align="middle">Figura 04 - Servidor Kerberos</h4>
 
 <p align="justify">Funcionalmente, cada componente destacado a seguir proporciona uma estrutura para a execução do SO no container:</p>
