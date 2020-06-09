@@ -21,6 +21,11 @@
 *	cgroups – fornecem mecanismos para contabilizar e limitar os recursos que os processos podem utilizar em cada container (BUI, 2015);
 *	namespaces – criam grupos de processos de maneira que um grupo de processo não seja visualizado por outro, garantindo o isolamento dos containers. 
 
+<p align="justify">Existem disponíveis várias ferramentas de gestão de container, como o Docker, o CoreOS, o Mesos e o LXC. O presente estudo concentra-se somente no Docker, considerada a ferramenta mais usada para este propósito.</p>
+
+<p align="justify">No Docker, cada container é baseado em uma imagem e em um conjunto de dados de configuração. As imagens são cópias estáticas da configuração dos containers. Todas as imagens de um container ficam hospedadas em um servidor remoto, chamado Docker Hub, no qual o usuário pode fazer seu cadastro e disponibilizar sua imagem personalizada.</p>
+
+
 ## INSTALAÇÃO DO DOCKER
 
 <p align="justify">Atualize o índice do pacote apt e instale pacotes para permitir que o apt use um repositório através de HTTPS:</P>
