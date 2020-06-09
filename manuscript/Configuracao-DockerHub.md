@@ -31,5 +31,23 @@
 <p align="center"><img src="images/docker-hub/04 - config-docker-login.png"  width="800" height="147" align="middle"/></p>
 <h4 align="middle">Figura 06 - Configuração Login Docker</h4>
 
+<p align="justify">É necessário agora criar a imagem  a ser enviada para o repositório com o mesmo nome do criado no Docker Hub, conforme comando abaixo:</p>
+
+<p align="justify"><b>docker commit icev icev-luciano </b></p>
+
+<p align="justify">Devemos ainda riar uma referência (tag) da imagem no repositório, informando se é a última versão, ou se é específica de alguma aplicação, etc. Para isso precisamos saber o ID da imagem, através do comando <b>docker images</b>.</p>
+
+<p align="center"><img src="images/docker-hub/id-img.png"  width="600" height="74" align="middle"/></p>
+
+<p align="justify">Atribua a marcação latest a imagem, <b>IMPORTANTE</b>, este número ID é específico  para a imagem de exemplo, deve ser alterado para cada sistema operacional</p>
+
+<p align="left"><b>docker tag <b>5063e5317297</b> lucianoaguiarthe/icev-luciano:latest</b></p>
+
+<p align="justify">Por último envie a sua imagem para o repositório com o comando <b>docker push</b>.</p>
+<p align="center"><img src="images/docker-hub/push-img.png"  width="700" height="60" align="middle"/></p>
+
+<p align="justify">Acesse o Docker Hub e verifique se a sua imagem está disponível, desta forma já é possível que todos na internet façam o download da sua aplicação através do comando <b>docker pull</b>.</p>
+<p align="center"><img src="images/docker-hub/repository-img.png"  width="800" height="259" align="middle"/></p>
+<h4 align="middle">Figura 06 - Repositório com a Imagem</h4>
 
 [Início](/README.md)
