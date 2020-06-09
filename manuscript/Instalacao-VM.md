@@ -1,5 +1,5 @@
 # Instalação Sistema Operacional Debian
-<p align="justify">Para se  disponibilizar se um ambiente virtualizado se faz necessário o download de um software de virtualizado, o adotado no presente material é o VirtualBox da Oracle, o dowload da aplicação pode ser realizado no endereço abaixo:</p>
+<p align="justify">Para  disponibilizar um ambiente virtualizado se faz necessário o download de um software de virtualizado, o adotado no presente material é o VirtualBox da Oracle, o dowload da aplicação pode ser realizado no endereço abaixo:</p>
 
 [VirtualBox](https://www.virtualbox.org/) 
 
@@ -12,296 +12,159 @@
 <p align="center"><img src="images/install-vm/01.png"  width="600" height="303" align="middle"/></p>
 <h4 align="middle">Figura 01 - Criação VM</h4>
 
-<p align="justify">  </p>
+<p align="justify">Informe também o tamanho da memória que será alocado para a máquina virtual, tenha cuidado deixe uma reserva de 70% da memória para o Sistema Operacional Hospedeiro.</p>
+
 <p align="center"><img src="images/install-vm/02.png"  width="600" height="303" align="middle"/></p>
 <h4 align="middle">Figura 02 - Tamanho da Memória</h4>
 
+<p align="justify">Deve ser informado se informado se será criado um novo disco ou utilizaod um existente, em nosso ambiente criaremos um novo disco, conforme Figura 03:</p>
+
 <p align="center"><img src="images/install-vm/03.png"  width="600" height="301" align="middle"/></p>
-<h4 align="middle">Figura 03 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 03 - Criação de Disco Rígido</h4>
+
+<p align="justify">Informe ainda que tipo de arquivo de disco será criado, deixe marcado a opção default, VDI, conforme Figura 04:</p>
 
 <p align="center"><img src="images/install-vm/04.png"  width="600" height="347" align="middle"/></p>
-<h4 align="middle">Figura 04 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 04 - Tipo de Arquivo de Disco</h4>
+
+<p align="justify">Selecione se o arquivo de disco será <b>Dinamicamente Alocado</b> ou de <b>Tamanho Fixo</b>, o recomendável é o Dinamicamente Alocado, considerando a economicidade de tamanho.</p>
 
 <p align="center"><img src="images/install-vm/05.png"  width="600" height="346" align="middle"/></p>
-<h4 align="middle">Figura 05 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 05 - Armazenamento em Disco Rígido Físico</h4>
+
+<p align="justify">Informe a localização do arquivo da VM e o tamanho do disco, o tamanho sugerido de <b>8GB</b>, atende as necessidade do laboratório.</p>
 
 <p align="center"><img src="images/install-vm/06.png"  width="600" height="348" align="middle"/></p>
-<h4 align="middle">Figura 06 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 06 - Localização e Tamanho do Arquivo</h4>
+
+<p align="justify">Ao concluir a criação da máquina virtual, altere a configuração da rede para que a VM seja acessa externamenete pelos demais dispositivos do ambente. Para isso, acesso o menu <b>Máquina</b> e <b>Configurações</b>, clique no ícone Rede, conforme apontado pela seta vermelha, Figura 07, em <b>Conectado a: - </b> altere para Placa em modo Bridge e clique em <b>ok</b>.</p>
 
 <p align="center"><img src="images/install-vm/07.png"  width="600" height="249" align="middle"/></p>
-<h4 align="middle">Figura 07 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 07 - Adaptador de Rede</h4>
+
+<p align="justify">Inicialize a Máquina Virtual, clicando no botão iniciar, será aberto uma janela, Figura 08, e aponte para o ISO do Debian que foi realizado o Download no início deste documento.</p>
 
 <p align="center"><img src="images/install-vm/08.png"  width="600" height="326" align="middle"/></p>
-<h4 align="middle">Figura 08 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 08 - Selecionar Disco Óptico</h4>
 
+<p align="justify">Selecione o tipo de instalador de sua preferência, caso não tenha familiarade, recomendo o instador gráfico do sistema operacional</p>
 <p align="center"><img src="images/install-vm/09.png"  width="500" height="374" align="middle"/></p>
-<h4 align="middle">Figura 09 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 09 - Instalador Debian</h4>
+
+<p align="justify">Escolhe o idiome de sua preferência para o instalador do Sistema Operacional</p>
 
 <p align="center"><img src="images/install-vm/10.png"  width="600" height="448" align="middle"/></p>
-<h4 align="middle">Figura 10 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 10 - Idioma de Instalação</h4>
+
+<p align="justify">Escolha a localidade de instalação</p>
 
 <p align="center"><img src="images/install-vm/11.png"  width="600" height="449" align="middle"/></p>
-<h4 align="middle">Figura 11 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 11 - Localidade</h4>
+
+<p align="justify">Selecione o tipo de teclado conforme a configuração do seu dispositivo.</p>
 
 <p align="center"><img src="images/install-vm/12.png"  width="600" height="449" align="middle"/></p>
-<h4 align="middle">Figura 12 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 12 - Mapa de Teclado</h4>
+
+<p align="justify">Atribua um nome para a máquina, o mesmo será exibido na rede.</p>
 
 <p align="center"><img src="images/install-vm/13.png"  width="600" height="453" align="middle"/></p>
-<h4 align="middle">Figura 13 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 13 - Nome da Máquina</h4>
+
+<p align="justify">Caso seja necessário atribua um nome para o domínio, em nosso laboratório não se faz necessário, essa configuração pode ser realizada posteriormente.</p>
 
 <p align="center"><img src="images/install-vm/14.png"  width="600" height="452" align="middle"/></p>
-<h4 align="middle">Figura 14 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 14 - Nome do Domínio</h4>
+
+<p align="justify">Atribua uma senha para o <b>Root</b>, que é o usuário administrador do Sistema Operacional.</p>
 
 <p align="center"><img src="images/install-vm/15.png"  width="600" height="452" align="middle"/></p>
-<h4 align="middle">Figura 15 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 15 - Configuração Senha do Root</h4>
+
+
+
+<p align="justify">Informe o nome de um usuário que será cadastrado para acesso ao sistema operacional.</p>
 
 <p align="center"><img src="images/install-vm/16.png"  width="600" height="450" align="middle"/></p>
-<h4 align="middle">Figura 16 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 16 - Usuário Sistema Operacional</h4>
+
+<p align="justify">Atribua uma senha para o usuário criado no passo anterior.</p>
 
 <p align="center"><img src="images/install-vm/17.png"  width="600" height="451" align="middle"/></p>
-<h4 align="middle">Figura 17 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 17 - Senha Usuário</h4>
+
+<p align="justify">Informe a sua região para configuração do fuso horário do relógio.</p>
 
 <p align="center"><img src="images/install-vm/18.png"  width="600" height="453" align="middle"/></p>
-<h4 align="middle">Figura 18 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 18 - Fuso Horário</h4>
+
+<p align="justify">Será inicado o procedimento de maior cuidado na instalação do Sistema Operacional, a recomendação para usuários iniciantes é selecionar a opção <b>Assistido - usar o disco inteiro</b>, no qual uma ferramenta de particionamento irá guiá-lo no procedimemento de formatação e criação de partições.</p>
 
 <p align="center"><img src="images/install-vm/19.png"  width="600" height="453" align="middle"/></p>
-<h4 align="middle">Figura 19 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 19 - Método de Particionamento</h4>
+
+<p align="justify">Selecione o disco que será realizado o particionamento.</p>
 
 <p align="center"><img src="images/install-vm/20.png"  width="600" height="453" align="middle"/></p>
-<h4 align="middle">Figura 20 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 20 - Disco a Ser Apagado</h4>
+
+<p align="justify">O Particionador de disco realiza a divisão do disco conforme necessidade do administrador do sistema operacional, a maneira correta de configuração de um servidor é criar uma partição para cada pasta, como por exemplo: uma partição para a /home, outra para a /var, outra  /tmp. Todavia como é a instação de um Sistema Operacional de teste, iremos selecionar a opção <b>Todos os arquivos em uma partição</b>, Figura 21:</p>
 
 <p align="center"><img src="images/install-vm/21.png"  width="600" height="453" align="middle"/></p>
-<h4 align="middle">Figura 21 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 21 - Particionador de Disco</h4>
+
+<p align="justify">Para concluir os procedimentos de particionamentos selecione a opção <b>Finalizar o particionamento e escrever as mudanças no disco</b>, Figura 22:</p>
 
 <p align="center"><img src="images/install-vm/22.png"  width="600" height="452" align="middle"/></p>
-<h4 align="middle">Figura 22 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 22 - Confirmação de Particionamento</h4>
+
+<p align="justify">Escreva as mudanças no disco referente a particionamentos marcanco a opção <b>Sim</b> e clicando no botão <b>Continuar</b>.</p>
 
 <p align="center"><img src="images/install-vm/23.png"  width="600" height="451" align="middle"/></p>
-<h4 align="middle">Figura 23 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 23 - Escrever Mudanças no Disco</h4>
+
+<p align="justify">Caso tenha mais algum outro CD ou DVD de instação selecione sim e aponte para o dispositivo, para o nosso processo de instação temos somente uma imagem ISO portanto selecione a opção <b>Não</b> e clique em continuar.</p>
 
 <p align="center"><img src="images/install-vm/24.png"  width="600" height="454" align="middle"/></p>
-<h4 align="middle">Figura 24 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 24 - Ler Discos</h4>
+
+<p align="justify">Informe qual o país do Espelho que será utilizado para download dos pacotes, Figura 25:</p>
 
 <p align="center"><img src="images/install-vm/25.png"  width="600" height="453" align="middle"/></p>
-<h4 align="middle">Figura 25 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 25 - Repositório Debian</h4>
+
+<p align="justify">Informe qual espelho será utilizado para download dos pacotes.</p>
 
 <p align="center"><img src="images/install-vm/26.png"  width="600" height="453" align="middle"/></p>
-<h4 align="middle">Figura 26 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 26 - Espelho do Repositório</h4>
 
+
+<p align="justify">Caso esteja em uma rede corporativa, informe qual o endereço do proxy e a porta, em nosso ambiente virtualizado não se faz necessário.</p>
 
 <p align="center"><img src="images/install-vm/27.png"  width="600" height="456" align="middle"/></p>
-<h4 align="middle">Figura 27 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 27 - Proxy de Rede</h4>
+
+<p align="justify">Informe se tem interesse de participar do concurso de Gerenciador de Pacotes.</p>
 
 <p align="center"><img src="images/install-vm/28.png"  width="600" height="453" align="middle"/></p>
-<h4 align="middle">Figura 28 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 28 - Concurso de Realização de Pacotes</h4>
+
+<p align="justify">Selecione os sofware que serão utilizados no sistema operacional, em nosso ambiente marque somente <b>servidor ssh</b>.</p>
 
 <p align="center"><img src="images/install-vm/29.png"  width="600" height="452" align="middle"/></p>
-<h4 align="middle">Figura 29 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 29 - Seleção de Software</h4>
+
+<p align="justify">O <b>Grub</b> é o carregador de inicalização do Sistema Operacional, obrigatoriamente deve ser instalado para que o Sistema inicialize normalmente, marque a opção <b>Sim</b> e clique em continuar.</p>
 
 <p align="center"><img src="images/install-vm/30.png"  width="600" height="451" align="middle"/></p>
-<h4 align="middle">Figura 30 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 30 - Instalação do Grub</h4>
+
+<p align="justify">Selecione o disco que será instalado o Grub, Figura 31:</p>
 
 <p align="center"><img src="images/install-vm/31.png"  width="600" height="453" align="middle"/></p>
-<h4 align="middle">Figura 31 - Alocação de Memória VM</h4>
+<h4 align="middle">Figura 31 - Dispositivo de Instalação do Grub</h4>
+
+<p align="justify">Finalmente a instalação é concluída, clique no botão <b>Continuar</b> e reinicie o Sistema Operacional.</p>
 
 <p align="center"><img src="images/install-vm/32.png"  width="600" height="453" align="middle"/></p>
-<h4 align="middle">Figura 32 - Alocação de Memória VM</h4>
-
-
-
-## INSTALAÇÃO SAMBA
-
-<p align="justify">Para instalação do Samba devemos baixar os pacotes: samba, kerbero, smbcliente e winbind, conforme comando a seguir:</p>
-
-**<h4 align="middle">apt-get install samba krb5-config winbind smbclient</h4>**
-
-<p align="justify">Ao final da instalação são solicitadas informações sobre configuração do kerbero. A primeira tela Fig. 03, solicita qual o nome do domínio, o qual configuraremos <b>aluno.com.br</b>.</p>
-
-![](images/samba/07_kerberos.png)
-<h4 align="middle">Figura 03 - Realm Kerberos</h4>
-
-
-<p align="justify">Será solicitado também o IP do servidor responsável pelo domínio. Iremos configurar o endereço loopback, já que o kerberos está sendo executado no mesmo host do samba:</p>
-
-<p align="center"><img src="images/samba/08_kerberos.png"  width="700" height="205" align="middle"/></p>
-<h4 align="middle">Figura 04 - Servidor Kerberos</h4>
-
-<p align="justify">E ainda é solictado o ip do servidor administrativo que também será o endereço loopback, conforme explicações anteriores:</p>
-
-<p align="center"><img src="images/samba/09_kerberos.png"  width="700" height="205" align="middle"/></p>
-<h4 align="middle">Figura 05 - Servidor Administrativo</h4>
-
-<p align="justify">Ao concluir a instalação devemos renomear o arquivo principal de configuração do samba o <b>smb.conf</b>, para que ao aprovisionar o domínio, seja gerado um novo smb.conf, de acordo com o comando a seguir:</p>
-
-<h4 align="middle">mv /etc/samba/smb.conf /etc/samba/smb.conf.original</h4>
-
-<p align="justify">O passo seguinte deveremos configurar o samba como controlador de domínio, é importante pontuar que o nome do nosso domínio será <b>aluno.com.br</b> e o nome da máquina q está executando o samba é <b>samba-dc</b>, através do comando <b>samba-tool</b> conforme apesentado na Fig. 06:</p>
-<p style="text-align: justify;"><b>IMPORTANTE: A senha cadastrada deve possuir um nível alto de complexidade, use número, letras e símbolos, caso coloque uma senha simples dará um erro no final da instalação</b></p>
-
-![](images/samba/10_domain_provision.png)
-<h4 align="middle">Figura 06 - Comando samba-tool</h4>
-
-<p align="justify">Onde você informará qual realm do domínio, em nosso exemplo <b>aluno.com.br</b>, qual o domain, o modo como o serviço samba está operando, se <b>DC</b> como controlador de domínio ou <b>standalone</b> somente para compartilhamento de arquivos, qual tipo de dns estará fazendo a resolução de nomes, em nosso exemplo estaremos utilizando o do próprio samba <b>SAMBA_INTERNAL</b> e qual endereço do dns estará redirecionando as solicitações de resolução de nome. Responda todas estas perguntas conforme Fig. 06.</p>
-
-<p align="justify">Ao concluir a configuração será gerado um novo smb.conf bem como o arquivo de configuração do kerberos e apresetnado um relatório conforme Fig. 07:</p>
-
-![](images/samba/11_domain_provision.png)
-<h4 align="middle">Figura 07 - domain_provision</h4>
-
-<p align="justify">O arquivo smb.conf gerado no comando <b>samba-tool domain provision</b> é apresentado na Fig. 08 e corresponde a configuração inicial do samba:</p>
-
-<p align="center"><img src="images/samba/12_smb.conf.png"  width="700" height="307" align="middle"/></p>
-
-<h4 align="middle">Figura 08 - Arquivo smb.conf</h4>
-
-<p align="justify">Ao concluir  toda a  configuração  podemos  fazer um teste no samba utilizando o  smbcliente, conforme apresentado na Fig. 09</p>
-
-<img src="images/samba/13_teste_samba.png"  width="700" height="278" align="middle"/>
-<h4 align="middle">Figura 09 - Teste Samba</h4>
-
-<p align="justify">Faz-se necessário copiar o arquivo gerado pelo kerberos durante o aprovisionamento do domínio para a pasta <b>etc</b>:</p>
-<h4 align="middle">mv /var/lib/samba/private/krb5.conf /etc/</h4>
-
-<p align="justify">O administrador do sistema deverá derrubar todos os serviços do samba, objetivando alterar configurações, conforme comando abaixo:</p>
-<h4 align="middle">systemctl stop smbd.service nmbd.service winbind.service </h4>
-
-<p align="justify">Devemos desativar todos os serviços do samba para não serem iniciados no boot, impossibilitando o AD de subir:</p>
-
-<h4 align="middle">systemctl disable smbd.service nmbd.service winbind.service</h4>
-
-<p align="justify">O serviço samba-ad-dc ao ser instalado ele vem mascarado, desta forma o mesmo é impedido de ser iniciado ou parado, para que possamos parar ou iniciar o serviço manualmente devemos desmascarar o samba com o comando:</p>
-
-<h4 align="middle">systemctl unmask samba-ad-dc.service</h4>
-
-<p align="justify">Como o samba-dc-ad foi parado anteriormente, devemos inicializá-lo:</p>
-
-<h4 align="middle">systemctl start samba-ad-dc.service </h4>
-
-<p align="justify">Habilite com o comando abaixo o serviço samba-ad-dc para inicializar no boot:</p>
-
-<h4 align="middle"><b>systemctl enable samba-ad-dc.service</b></h4>
-
-<p align="justify">Podemos ainda tirar a complexidade da senha usando o samba-tool, conforme apresentado na Fig. 10:</p>
-
-![](images/samba/14_complexity_samba.png)
-<h4 align="middle">Figura 10 - Alteração Complexidade de Senha</h4>
-
-<p align="justify">Caso o administrador de rede deseje, pode especificar o tamanho mínimo de uma senha, na Fig. 11, configuramos que o usuário tenha uma senha como no mínimo 6 caracteres ou símbolos</p>
-
-![](images/samba/15_password_length.png)
-<h4 align="middle">Figura 11 - Tamanho da Senha</h4>
-
-## CONFIGURAÇÃO DO RSAT
-
-<p align="justify">O serviço samba pode ser administrado diretamente no host em que está instalado o serviço, ou podemos administrá-lo remotamente por meio do software RSAT instalado em um computador com sistema operacional Windows que esteja previamente autenticado no domínio. Você verá que a configuração passa a ser igual a do Windows Server. Em nosso diagrama (Fig. 01), iremos administrar o samba a partir do host RSAT-PC, que tem o IP 192.168.5.10.</p>
-<p style="text-align: justify;">
-
-<p align="justify">Segue abaixo endereços para instalação do RSAT nas diversas versões de Windows, no nosso laboratório já realizei o download prévio:</p>
-
-### DOWNLOAD
-
-[Windows 10](https://www.microsoft.com/pt-BR/download/details.aspx?id=45520)<p>
-[Windows 8.1](https://www.microsoft.com/pt-BR/download/details.aspx?id=39296)<p>
-[Windows 8](https://www.microsoft.com/pt-BR/download/details.aspx?id=28972)<p>
-[Windows 7](https://www.microsoft.com/pt-BR/download/details.aspx?id=7887)
-
-<p align="justify">Antes de instalar o <b>RSAT</b> devemos ingressar o host no domínio. Acesse o painel de controle e vá em sistemas em segurança => sistemas, será exibido uma janela conforme Fig. 12:</p>
-
-<p align="center"><img src="images/samba/16_rsat_domain.png"  width="700" height="542" align="middle"/></p>
-<h4 align="middle">Figura 12 - Sistemas</h4>
-
-<p align="justify">Na área de configurações de grupo de trabalho clique em alterar configurações, no qual será exibido a janela de propriedades do sistemas (Fig. 13). Clique no botão <b>Alterar</b> para informar o domínio que devemos ingressar.</p>
-
-<p align="center"><img src="images/samba/17_rsat_domain.png"  width="400" height="469" align="middle"/></p>
-<h4 align="middle">Figura 13 - Propiedades do Sistemas</h4>
-
-<p align="justify">Na janela de alterações do domínio (Fig. 14), você terá a posibilidade de alterar o domínio e o nome do computador. Marque o item domínio e coloqueo o nome <b>aluno</b>.</p>
-
-<p align="center"><img src="images/samba/18_rsat_domain.png"  width="400" height="469" align="middle"/></p>
-<h4 align="middle">Figura 14 - Alteração de Domínio</h4>
-
-<p align="justify">Ao alterarmos o domínio, será solicitado um usuário e senha para ingressar no domínio. O usuário é o <b>Administrator</b> e a senha é a cadastrada quando foi aprovisionado o domínio (Fig. 15).</p>
-
-<p align="center"><img src="images/samba/19_rsat_domain.png"  width="380" height="269" align="middle"/></p>
-<h4 align="middle">Figura 15 - Senha Domínio</h4>
-
-<p align="justify">Se a configuração feita no samba estiver toda correta, será apresentada uma janela de confirmação, dando boas vindas ao domínio, Fig. 16.</p>
-
-<p align="center"><img src="images/samba/20_rsat_domain.png"  width="700" height="388" align="middle"/></p>
-<h4 align="middle">Figura 16 - Confirmação Domínio</h4>
-
-<p align="justify">Conforme abordado anteriormente, deve-se instalar o RSAT somente depois que o host fizer parte do domínio, no Appliance disponilizado, o instalador do RSAT está localizado em <b>c:\samba</b>, Fig. 17. Faça a instação do mesmo.</p>
-
-![](images/samba/21_folder_rsat.png)
-<h4 align="middle">Figura 17 - Diretório Instalador RSAT</h4>
-
-<p align="justify">Ao concluir a instalação, será criado um item no menu iniciar <b>Ferramentas Administrativa</b> (Fig. 18), que possuirá várias ferrametas para administração do domínio.</p> 
-
-![](images/samba/22_user_pc_ad.png)
-<h4 align="middle">Figura 18 - Ferramentas Administrativas</h4>
-
-<p align="justify">A primeira configuração a ser relizada é referente aos usuários. Selecione o item Usuários e Computadores do Active Directory, no qual abrirá uma janela para administração de usuário e unidades organizacionais (Fig. 19).</p>
-
-<p align="justify">As Unidades Organizacionais-OU são contêineres que armazenam informações sobre usuários e computadores. Em nosso exemplo iremos criar uma OU para armazenar nossos novos usuários a serem criados. Para isso clique com o botão direito em cima do nome do domínio, selecione no menu suspenso o item Novo => Unidade organizacional.</p>
-
-![](images/samba/23_create_ou.png)
-<h4 align="middle">Figura 19 - Usuários e Computadores do AD</h4>
-
-<p align="justify">Vamos criar uma Unidade Organizacional chamada nassau, desmarque a opção proteger contêiner, conforme Fig. 20:</p>
-
-<p align="center"><img src="images/samba/24_create_ou.png"  width="450" height="384" align="middle"/></p>
-<h4 align="middle">Figura 20 - Unidade Organizacional</h4>
-
-<p align="justify">Para cadastrar um usuário no domínio devemos clicar com o botão direito em cima da Unidade Organizacional nassau e no menu suspenso selecionar Novo => Usuário.</p>
-
-![](images/samba/25_create_user.png)
-<h4 align="middle">Figura 21 - Menu Usuário</h4>
-
-<p align="justify">Na janela de cadastro do usário, preencha os campos de nome e usuário, conforme Fig. 22. Para cadastrar um usuário no domínio, devemos clicar com o botão direito em cima da Unidade Organizacional nassau e no menu suspenso selecionar Novo => Usuário.</p>
-
-<p align="center"><img src="images/samba/26_create_user.png"  width="450" height="383" align="middle"/>
-<img src="images/samba/27_create_user.png"  width="450" height="386" align="middle"/></p>
-<h4 align="middle">Figura 22 - Cadastro Usuário</h4>
-
-<p align="justify">Com o objetivo de implementar algumas restrições no sistema operacional dos usuários, devemos criar as Group Police-GPO, as mesmas possuem diversas implementações para personalização dos sistemas operacionais que fazem parte do domínio, como restrição ao painel de controle e configuração de rede. É importante pontuar que tal configuração é idêntica no Windows Server, todavia a possibilidade desta implementação no samba só veio a partir da versão 4.</p>
-
-<p align="justify">Para configurarmos uma GPO devemos acessar o menu de Ferramentas Administrativas e Gerenciamento de Políticas de Grupo (Fig. 23):</p>
-
-![](images/samba/28_gpo.png)
-<h4 align="middle">Figura 23 - Cadastro Usuário</h4>
-
-<p align="justify">Na criação da GPO devemos escolher o domínio (aluno.com.br), clicar com o botão direito em cima da OU nassau e no menu suspenso selecionar criar uma GPO neste domínio e atribur um nome para ela (Fig. 24).</p>
-
-![](images/samba/29_create_gpo.png)
-<h4 align="middle">Figura 24 - Criação GPO</h4>
-
-<p align="justify">Devemos editar a GPO criada, clicando com o botão direito em cima dela e nome menu suspenso selecionar a opção Editar, Fig. 25.</p>
-
-![](images/samba/30_edit_gpo.png)
-<h4 align="middle">Figura 25 - Edição GPO</h4>
-
-<p align="justify">Iremos implementar uma restrição para os usuários da OU nassau, no qual os mesmos serão impossibilitados de realizar alterações na configuração avançada TCP/IP. Para isso, selecione configuração do usuário => Modelos Administrativos => Rede => Conexões de Rede e edite a opção do lado direito da janela <b>Proibir a configuração avançada do TCP/IP</b>, selecione opção habilitado, conforme Fig. 26:</p>
-
-![](images/samba/31_edit_gpo_lan.png)
-<h4 align="middle">Figura 26 - GPO Configuração de Rede</h4>
-
-<p align="justify">Ainda como exemplo, iremos ocultar a opção Adicionar ou Remover pogramas do Painel de Controle dos usuários da OU nassau. Para isso selecione configuração do usuário =>Adicionar ou Remover Programas e edite a opção do lado direito da janela <b>Remover opção Adicionar/Remover Programas</b>, selecione opção habilitado (Fig. 27).</p>
-
-![](images/samba/33_edit_gpo_programas.png)
-<h4 align="middle">Figura 27 - GPO Painel de Controle</h4>
-
-## CONFIGURAÇÃO DO CLIENTE
-
-<p align="justify">Para testarmos a configuração do usuário, iremos utilizar o host Cliente-PC (Fig. 01). Devemos ingressar o mesmo no domínio, conforme abordado anteriormente, e logar com o usuário <b>pedro</b>.</p>
-
-<p align="justify">Ao tentarmos acessar as configurações de rede será apresentado uma tela de autenticação (Fig. 28). Considerando que o usuário <b>pedro</b> não tem permissão de acesso a estas configurações de rede</p>
-
-<p align="center"><img src="images/samba/36_client_edit_lan.png"  width="300" height="258" align="middle"/></p>
-<h4 align="middle">Figura 28 - Configurações de Rede</h4>
-
-
-<p align="justify">Ao abrirmos o painel de controle, em adicionar ou remover programas, podemos observar que não existe opção para remover nenhum programa do sistema operacional, conforme mostra a Fig. 29.</p>
-
-<p align="center"><img align="middle" src="images/samba/37_client_edit_software.png"  width="700" height="525"/></p>
-<h4 align="middle">Figura 29 - Painel de Controle</h4>
-
+<h4 align="middle">Figura 32 - Conclusão da Instalação</h4>
