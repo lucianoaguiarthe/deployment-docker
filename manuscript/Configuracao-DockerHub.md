@@ -10,6 +10,25 @@
 <p align="center"><img src="images/docker-hub/plano-dockerhub.png"  width="600" height="271" align="middle"/></p>
 <h4 align="middle">Figura 02 - Planos Docker Hub</h4>
 
+<p align="center"><img src="images/docker-hub/01-acess-dockerhub.png"  width="800" height="156" align="middle"/></p>
+<h4 align="middle">Figura 02 - Planos Docker Hub</h4>
  
+ 
+ 
+<p align="center"><img src="images/docker-hub/02-create-repository.png"  width="800" height="331" align="middle"/></p>
+<h4 align="middle">Figura 02 - Planos Docker Hub</h4>
+
+
+ 
+<p align="center"><img src="images/docker-hub/03-view-repository.png"  width="800" height="430" align="middle"/></p>
+<h4 align="middle">Figura 02 - Planos Docker Hub</h4>
+
+<p align="center"><img src="images/docker-hub/03-view-repository.png"  width="800" height="430" align="middle"/></p>
+<h4 align="middle">Figura 02 - Planos Docker Hub</h4>
+
+
+<p align="center"><img src="images/docker-hub/04 - config-docker-login.png"  width="800" height="147" align="middle"/></p>
+<h4 align="middle">Figura 02 - Planos Docker Hub</h4>
+
 
 [Início](/README.md)
